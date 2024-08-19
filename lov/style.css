@@ -1,0 +1,52 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 150, 187);
+    background-image: url(lov.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+   display: flex;
+   flex-direction: column;
+   text-align: center;s
+   gap: 20px;
+   max-width: 600px;
+   margin: 20px;
+}
+.container .tenor-gif-embed {
+    display: flex;
+    gap: 25px;
+
+}
+.btn a {
+    
+    text-decoration: none;
+    color: black;
+    background-color: aliceblue;
+    padding: 10px 25px;
+    border-radius: 9px;
+    box-shadow: 0.5rem 1rem 3rem hsl(0,0,0,0.3);
+}
+h1 {
+  background-color: brown;
+
+}
+.si {
+    background-image: url(fonsi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+p {
+    color: aliceblue;
+}
